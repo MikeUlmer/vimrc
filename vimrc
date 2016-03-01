@@ -52,4 +52,10 @@ nmap <leader>j :NERDTreeFind<CR>
 "autocmd VimEnter * NERDTree
 "autocmd VIMEnter * wincmd p
 
+"Tag list settings
+set tags=./tags;/
 
+
+"Tagbar settings
+"       toggle tagbar with F8
+nmap <F8> :TagbarToggle<CR>
