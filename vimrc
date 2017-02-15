@@ -82,4 +82,3 @@ nmap <F8> :TagbarToggle<CR>
 
 "On :w, remove all trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
-
